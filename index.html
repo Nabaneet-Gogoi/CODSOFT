@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="queries.css">
 </head>
 <body>
-    <nav id="dekstop-nav">
+    <nav id="desktop-nav">
         <div class="logo">Nabaneet Gogoi</div>
         <div>
             <ul class="nav-links">
@@ -17,6 +17,23 @@
                 <li><a href="#Experience">Experience</a></li>
                 <li><a href="#Contact">Contact</a></li>
             </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Nabaneet Gogoi</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#Experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#Contact" onclick="togglemenu()">Contact</a></li>
+            </div>
         </div>
     </nav>
     <script src="scripts.js"></script>
